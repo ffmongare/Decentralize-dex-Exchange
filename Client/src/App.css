@@ -266,3 +266,50 @@ header {
   font-weight: 300;
   color: #51596f;
 }
+
+.tableBox {
+  width: 600px;
+  background-color: #0E111B;
+  border: 2px solid #21273a;
+  min-height: 500px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  /* adjust as needed */
+  margin: 20px auto;
+  /* this centers the table on the page */
+  padding: 40px;
+  /* add padding around the table */
+}
+
+.th,
+.td {
+  /* border: 1px solid #ddd; */
+  /* padding: 16px; */
+  text-align: left;
+  height: 30px;
+}
+
+/* th {
+  background-color: #f2f2f2;
+
+} */
+
+/* tr:nth-child(even) {
+  background-color: #f2f2f2;
+} */
+
+.assetLogo1 {
+  height: 20px;
+  margin-left: 5px;
+  margin-top: 5px;
+}

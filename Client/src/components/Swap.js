@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Input, Popover, Radio, Modal, message } from 'antd';
-import {ArrowDownOutlined, DownOutlined, SettingOutlined } from '@ant-design/icons';
+import { ArrowDownOutlined, DownOutlined, SettingOutlined } from '@ant-design/icons';
 import tokenList from '../tokenList.json';
 import axios from 'axios';
 import { useSendTransaction, useWaitForTransaction } from "wagmi";
@@ -99,7 +99,6 @@ function Swap(props) {
       setTxDetails(approve.data);
       console.log("not approved")
       return
-
     }
 
     const tx = await axios.get(
