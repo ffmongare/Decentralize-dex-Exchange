@@ -34,7 +34,7 @@ function Tokens() {
 
   async function fetchPrices(
     one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen) {
-    const res = await axios.get(`http://localhost:3001/tokenPrice`, {
+    const res = await axios.get(`http://localhost:3002/tokenPrice`, {
       params: {
         addressOne: one, 
         addressTwo: two, 
